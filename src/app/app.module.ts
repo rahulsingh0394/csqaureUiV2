@@ -18,6 +18,8 @@ import { SharedModule } from './shared/shared.module';
 import { MatCardModule,MatIconModule, MatButtonModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { QuestionPaperComponent } from './question-paper/question-paper.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     HomeComponent,
     AboutComponent,
+    ContactUsComponent,
+    QuestionPaperComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'csquare' }),

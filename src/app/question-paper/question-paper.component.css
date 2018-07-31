@@ -1,0 +1,13 @@
+.imagee {
+    height: 500px;
+}
+
+.centered {
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}

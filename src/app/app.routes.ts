@@ -1,5 +1,8 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { QuestionPaperComponent } from './question-paper/question-paper.component';
 // import { AdminComponent } from './admin/admin.component';
 // import { StudentComponent } from './student/student.component';
 // import { AppComponent } from '../app/app.component';
@@ -7,6 +10,9 @@ import { HomeComponent } from './home/home.component';
 export const Router: Routes = [
     { path: '', component: HomeComponent, pathMatch: 'full' },
     { path: 'home', component: HomeComponent },
+    {path: 'about', component: AboutComponent},
+    {path: 'contact-us', component: ContactUsComponent},
+    {path: 'question-paper', component: QuestionPaperComponent},
     //   { path: 'about', loadChildren: './about/about.module#AboutModule' },
     //   { path: 'bangalore', component: BangaloreComponent },
     //   { path: 'contact', loadChildren: './contact/contact.module#ContactModule' },
